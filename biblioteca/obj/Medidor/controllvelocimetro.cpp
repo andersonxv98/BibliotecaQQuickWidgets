@@ -185,9 +185,9 @@ void ControllVelocimetro::test(bool v)
     //this->c_mark.changAllTextLabelMarcadores("i");
     //this->c_mark.changAlturaTodosMarcadores(500);
     qDebug() << "valor get altura: "<< this->c_mark.getListaSubItensDinamicos()[0]->getC_rt().getAltura();
-    this->c_canvas0.setBuraco(false);
+    this->c_canvas0.setBuraco(true);
     this->c_canvas.setBuraco(false);
-    this->c_canvas2.setBuraco(false);
+    this->c_canvas2.setBuraco(true);
     this->c_canvas3.setBuraco(false);
     //this->c_canvas2.setCor("transparent");
     //this->c_canvas3.setCor("transparent");

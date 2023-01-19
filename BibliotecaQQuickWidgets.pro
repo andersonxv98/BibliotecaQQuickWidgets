@@ -17,6 +17,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    biblioteca/base/cplus/controllerenunciado.cpp \
     main.cpp \
     mainwindow.cpp\
     biblioteca/base/cplus/controlleranimation.cpp \
@@ -31,10 +32,11 @@ SOURCES += \
     biblioteca/base/cplus/controllretanguloqml.cpp \
     biblioteca/base/cplus/models/marcadores.cpp \
     biblioteca/obj/Medidor/controllvelocimetro.cpp \
-
+    biblioteca/base/qml/enunciado.qml \
 
 
 HEADERS += \
+    biblioteca/base/cplus/controllerenunciado.h \
     mainwindow.h\
     biblioteca/base/cplus/controlleranimation.h \
     biblioteca/base/cplus/controllerarc.h \
@@ -88,4 +90,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
+    biblioteca/base/qml/btnOperadores.qml \
+    biblioteca/base/qml/enunciado.qml \
     biblioteca/base/svg/cleiton.jfif

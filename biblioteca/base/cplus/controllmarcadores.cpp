@@ -20,14 +20,7 @@ void ControllMarcadores::addMarcador(QPointer<ControllerSubItemDinamico> val)
     return;
 }
 
-void ControllMarcadores::setLista(QStringList l)
-{
-    /*if(this->lista != l){
-        this->lista = l;
-        emit listaChanged(this->bringQlist());
-    }*/
-    return;
-}
+
 
 QList<QPointer<ControllerSubItemDinamico> > ControllMarcadores::getListaSubItensDinamicos()
 {

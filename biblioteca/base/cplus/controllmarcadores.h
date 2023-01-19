@@ -11,7 +11,7 @@
 
 class ControllMarcadores : public ControllRetanguloQml
 {Q_OBJECT
-    Q_PROPERTY(QStringList lista READ getLista WRITE setLista NOTIFY listaChanged)
+
 
 public:
     ControllMarcadores();
@@ -19,7 +19,7 @@ public:
     Q_INVOKABLE QStringList getLista();
 
     void  addMarcador(QPointer<ControllerSubItemDinamico> val);
-    void setLista(QStringList l);
+
     QList<QPointer<ControllerSubItemDinamico>>  getListaSubItensDinamicos();
     void update();
 

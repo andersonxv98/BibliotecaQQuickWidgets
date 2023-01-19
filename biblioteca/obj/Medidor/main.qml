@@ -22,7 +22,7 @@ Item {
             }
 
             Loader{
-                source: "qrc:/biblioteca/base/qml/imagem.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/imagem.qml"
                  anchors.fill: retangulo
             }
             /*TapHandler {
@@ -30,28 +30,28 @@ Item {
                 retangulo.color = controllador.getCor();
             }*/
             Loader{
-                source: "qrc:/biblioteca/base/qml/component2.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/component2.qml"
                  anchors.fill: retangulo
 
             }
             Loader{
-                source: "qrc:/biblioteca/base/qml/arc0.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/arc0.qml"
                 anchors.fill: retangulo
 
             }
             Loader{
-                source: "qrc:/biblioteca/base/qml/Arc.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/Arc.qml"
                 anchors.fill: retangulo
            }
             Loader{
 
-                source: "qrc:/biblioteca/base/qml/arc2.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/arc2.qml"
                 anchors.fill: retangulo
 
             }
             Loader{
 
-                source: "qrc:/biblioteca/base/qml/arc3.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/arc3.qml"
                 anchors.fill: retangulo
 
             }
@@ -59,17 +59,17 @@ Item {
 
 
             Loader{
-                source: "qrc:/biblioteca/base/qml/marcadores.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/marcadores.qml"
                  anchors.fill: retangulo
             }
             Loader{
-                source: "qrc:/biblioteca/base/qml/ponteiro.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/ponteiro.qml"
                 anchors.fill: retangulo
 
             }
 
             Loader{
-                source: "qrc:/biblioteca/base/qml/component1.qml"
+                source: "qrc:/Anderson/biblioteca/base/qml/component1.qml"
                  anchors.fill: retangulo
 
             }

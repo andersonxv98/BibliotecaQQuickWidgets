@@ -1,16 +1,16 @@
 #include "controllerrotation.h"
-#include "qvariant.h"
+
 
 
 ControllerRotation::ControllerRotation(QObject *parent): QObject(parent)
 {
-    this->angulo = NULL;
+    this->angulo = 0;
 
 }
 
 void ControllerRotation::setAngulo(double i)
 {
-    qDebug() << "valor angulo" << i;
+    //qDebug() << "valor angulo" << i;
     if(this->angulo != i){
         this->angulo = i;
         emit anguloChanged(this->angulo);
@@ -93,13 +93,13 @@ double ControllerRotation::getAxisZ()
 }
 
 double ControllerRotation::getOriginX()
-{   qDebug() << "valor origin.x " << this->originX;
+{   //qDebug() << "valor origin.x " << this->originX;
     return this->originX;
 }
 
 double ControllerRotation::getOriginY()
 {
-    qDebug() << "valor origin.x " << this->originY;
+    //qDebug() << "valor origin.x " << this->originY;
     return this->originY;
 
 }
